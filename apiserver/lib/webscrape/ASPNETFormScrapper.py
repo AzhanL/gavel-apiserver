@@ -181,8 +181,9 @@ class ASPNETFormScrapper:
         # Returns list of beautifulsoup fileds
         return fields
 
-    def updateFormFromPanelUpdate(self, update_content: str):
-        content_sections: List[str] = list(str(update_content).split("|"))
+    def updateFormFromPanelUpdate(self, update_content: bytes):
+        content = update_content.decode()
+        content_sections: List[str] = list(content.split("|"))
         try:
             # Update Panel Content
             updated_panel_name = content_sections[
@@ -217,9 +218,10 @@ class ASPNETFormScrapper:
                 if item == "hiddenField"
             ]
             for location in hidden_field_locations:
-                self.hidden_form_params[
-                    content_sections[location + 1]
-                ] = content_sections[location + 2]
+                hidden_field_id = content_sections[location + 1]
+                hidden_field_value = content_sections[location + 2]
+                self.hidden_form_params[hidden_field_id] = hidden_field_value
+                self.aspnet_form.find(id=hidden_field_id).attrs['value'] = hidden_field_value
 
         except ValueError:
             print(
@@ -299,6 +301,8 @@ class ASPNETFormScrapper:
                 selected = beautifulsoup_element.find_next(
                     attrs={"selected": "selected"}
                 )
+                if selected is None:
+                    selected = beautifulsoup_element.find_next('option')
                 return selected.attrs["value"] if selected is not None else None
 
     def getResourcePath(self, resource: str = None) -> str:
@@ -348,6 +352,10 @@ class ASPNETFormScrapper:
 
             # Update page content and form
             self.page_content = response.content
+            print(
+                response.content.decode(),
+                file=open("regulartrigger_response_content.aspx", "w"),
+            )
             self.updateForm(self.form_id)
 
             return response.content
@@ -395,11 +403,15 @@ class ASPNETFormScrapper:
             )
             self.cookie_jar.update(session.cookies)
             session.close()
+            print(
+                response.content.decode(),
+                file=open("paneltrigger_response_content.aspx", "w"),
+            )
 
             # Update page content and form
             self.updateFormFromPanelUpdate(response.content)
             self.page_content = self.aspnet_form.prettify().encode("utf-8")
-            self.updateFormFields()
+            self.updateForm(self.form_id)
 
             return response.content
 
@@ -428,37 +440,36 @@ class ASPNETFormScrapper:
 
         # Formulate post header
         post_headers = copy.deepcopy(self.headers)
-        post_headers["Content-Type"] = "application/x-www-form-urlencoded"
+        post_headers[
+            "Content-Type"
+        ] = "application/x-www-form-urlencoded; charset=utf-8"
 
-        if self.aspnet_update_panels is True:
+        if self.update_panels_available is True:
             post_headers.update({"X-MicrosoftAjax": "Delta=true"})
 
-        print(json.dumps(post_data), file=open('post_data.json','w'))
-        print(json.dumps(post_headers), file=open('post_headers.json','w'))
+        print(json.dumps(post_data), file=open("post_data.json", "w"))
+        print(json.dumps(post_headers), file=open("post_headers.json", "w"))
         # Create a new session
         session = requests.Session()
-        if not debug:
-            response = session.post(
-                self.getResourcePath(),
-                headers=post_headers,
-                data=post_data,
-                cookies=self.cookie_jar,
-            )
-        if debug:
-            response = session.post(
-                'http://localhost:1234',
-                headers=post_headers,
-                data=post_data,
-                cookies=self.cookie_jar,
-            )
+        
+        response = session.post(
+            self.getResourcePath(),
+            headers=post_headers,
+            data=post_data,
+            cookies=self.cookie_jar,
+        )
 
         # Extract the cookie if there are any
         self.cookie_jar.update(session.cookies)
         # Close the session
         session.close()
-
         # Update the content
         self.page_content = response.content
+        # if self.update_panels_available:
+        #     if response.content.decode().split('|')[1] == 'updatePanel':
+        #         self.updateFormFromPanelUpdate(response.content)
+        #         return self.submitForm(panel_id, extra_post_data, debug)
+
         return response.content
 
     def setUpdatePanel(
