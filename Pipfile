@@ -5,6 +5,9 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+rope = "*"
+pylint = "*"
+flake8 = "*"
 
 [packages]
 requests = "*"
@@ -13,6 +16,12 @@ graphene-django = "*"
 django = "==2.*"
 pylama = "*"
 beautifulsoup4 = "*"
+pytz = "*"
+django-filter = "*"
+django-graphql-jwt = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
+django-localflavor = "*"
 
 [requires]
 python_version = "3.7"

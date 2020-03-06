@@ -10,71 +10,142 @@ import requests
 from WebScrapper import WebScrapper
 
 # Courts will be assigned the following properties
-location_template = {
+court_template = {
     "name": "Court Name",
     "branch": "provincial/fedral/military/supreme",
     "type": "appeal/superior/general/administrative_tribunals/null (if supreme)",
-    "address": {
-        "name": "Office 1",
-        "address_line_1": "123 Abc Street",
-        "address_line_2": "Extra Detail",
-        "city": "Toronto",
-        "province": "Ontario",
-        "postal_code": "A1B2C3",
-        "phone_number": "1234567890",
-        "fax": "1234567890",
-    },
-    "hours_of_operations": {
-        0: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Monday",
+    "locations": [
+        {
+            "type": "Court Office/Hearing",
+            "address": {
+                "name": "Office 2",
+                "address_line_1": "123 Abc Street",
+                "address_line_2": "Extra Detail",
+                "city": "Toronto",
+                "province": "Ontario",
+                "postal_code": "A1B2C3",
+                "phone_number": "1234567890",
+                "fax": "1234567890",
+                "purpose": "For Hearings",
+                "hours_of_operations": {
+                    0: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Monday",
+                    },
+                    1: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Tuesday",
+                    },
+                    2: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Wednesday",
+                    },
+                    3: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Thursday",
+                    },
+                    4: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Friday",
+                    },
+                    5: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Saturday",
+                    },
+                    6: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Sunday",
+                    },
+                },
+            },
         },
-        1: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Tuesday",
+        {
+            "type": "Court Office/Hearing",
+            "address": {
+                "name": "Office 2",
+                "address_line_1": "123 Abc Street",
+                "address_line_2": "Extra Detail",
+                "city": "Toronto",
+                "province": "Ontario",
+                "postal_code": "A1B2C3",
+                "phone_number": "1234567890",
+                "fax": "1234567890",
+                "purpose": "For Hearings",
+                "hours_of_operations": {
+                    0: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Monday",
+                    },
+                    1: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Tuesday",
+                    },
+                    2: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Wednesday",
+                    },
+                    3: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Thursday",
+                    },
+                    4: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Friday",
+                    },
+                    5: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Saturday",
+                    },
+                    6: {
+                        "times": [
+                            {"start": "8:00", "stop": "12:00"},
+                            {"start": "13:00", "stop": "16:30"},
+                        ],
+                        "day": "Sunday",
+                    },
+                },
+            },
         },
-        2: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Wednesday",
-        },
-        3: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Thursday",
-        },
-        4: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Friday",
-        },
-        5: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Saturday",
-        },
-        6: {
-            "times": [
-                {"start": "8:00", "stop": "12:00"},
-                {"start": "13:00", "stop": "16:30"},
-            ],
-            "day": "Sunday",
-        },
-    },
+    ],
 }
 hearing_template = {
     "title": "Jack v Bill",
@@ -220,4 +291,34 @@ class ManitobaCourtsScaper(WebScrapper):
             # Return all the hearings
             return hearings_list
 
+        return None
+
+    def scrapQueensBenchCourts(self):
+        response = requests.get(
+            "http://www.manitobacourts.mb.ca/court-of-queens-bench/location-and-contact-info/",
+            headers=self.headers,
+            cookies=cookies,
+        )
+        pass
+
+    def getCourtInfo(self, url):
+        try:
+            # Request the court url
+            response = requests.get(url, headers=self.headers)
+
+            # Check if response response code is 200
+            if response.status_code == 200:
+                # Create beautifulsoup object
+                soup = bs4.BeautifulSoup(response.content.decode(), "lxml")
+
+                #
+
+            # Raise an exception if the respnse code is anthing except 200
+            else:
+                raise Exception(
+                    "Court Information could not be retrieved from the website"
+                )
+        except Exception:
+            # Error occurred
+            return None
         return None
