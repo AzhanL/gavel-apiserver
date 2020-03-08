@@ -7,13 +7,15 @@ from typing import List
 import bs4
 import requests
 
-from WebScrapper import WebScrapper
+from WebScraper import WebScraper
+import json
 
 # Courts will be assigned the following properties
 court_template = {
     "name": "Court Name",
-    "branch": "provincial/fedral/military/supreme",
-    "type": "appeal/superior/general/administrative_tribunals/null (if supreme)",
+    "branch": "provincial/federal/military/supreme",
+    "type": "appeal/superior/general/administrative_tribunals/tax/null (if supreme)",
+    "specialization": "",
     "locations": [
         {
             "type": "Court Office/Hearing",
@@ -148,6 +150,15 @@ court_template = {
     ],
 }
 hearing_template = {
+    "title": "",
+    "party_name": "",
+    "lawyer": "",
+    "epoch_time": "",
+    "court_file_number": "",
+    "type": "",
+    "room_number": "",
+}
+hearing_template_sample = {
     "title": "Jack v Bill",
     "party_name": "Jack Jill",
     "lawyer": "Bob",
@@ -158,20 +169,22 @@ hearing_template = {
 }
 
 
-class ManitobaCourtsScaper(WebScrapper):
+class ManitobaCourtsScraper(WebScraper):
     def __init__(self):
         super().__init__()
         self.baseurl = "https://web43.gov.mb.ca"
         self.location_code_regex = r"(?<=LocationCode\=)(\d\d)"
 
-    def scarpCourts(self, day: int, month: int, year: int):
+    def scrapeAllCourtHearings(self, day: int, month: int, year: int):
         """
-        Day 0 is Sunday, Day 6 is Saturday
+        Day is day of the month
         Month 1 is January, Month 12 is December
+
+        Scrapes court hearings from all court locations available on the site
         """
         try:
             # Check if the month, day are correct
-            if not ((0 <= day <= 6) and (1 <= month <= 12)):
+            if not ((0 <= day <= 31) and (1 <= month <= 12)):
                 raise ValueError("Day or month have incorrect range")
             # Check paramter types
             if not (
@@ -205,8 +218,8 @@ class ManitobaCourtsScaper(WebScrapper):
                             # Location is code is group 0 of the regex
                             location_code = matches.group(0)
 
-                            location_hearings = self.getCourtHearings(
-                                20, 2, 2020, location_code, session
+                            location_hearings = self.scrapeCourtHearings(
+                                day, month, year, location_code, session
                             )
                             # TODO: Use Location name and loctation type
                             #       instead of the name
@@ -228,7 +241,7 @@ class ManitobaCourtsScaper(WebScrapper):
         except Exception:
             return None
 
-    def getCourtHearings(
+    def scrapeCourtHearings(
         self,
         day: int,
         month: int,
@@ -236,6 +249,9 @@ class ManitobaCourtsScaper(WebScrapper):
         location_code: int,
         session=requests.Session(),
     ):
+        """
+        Scrapes court hearings from 1 court court location
+        """
         # Prepare paramters to be sent
         params = {
             "HearingTypeCode": "all",
@@ -293,31 +309,18 @@ class ManitobaCourtsScaper(WebScrapper):
 
         return None
 
-    def scrapQueensBenchCourts(self):
-        response = requests.get(
-            "http://www.manitobacourts.mb.ca/court-of-queens-bench/location-and-contact-info/",
-            headers=self.headers,
-            cookies=cookies,
-        )
-        pass
-
-    def getCourtInfo(self, url):
+    def getAllCourtInfo(self):
         try:
-            # Request the court url
-            response = requests.get(url, headers=self.headers)
+            # Try reading the json file and return it
+            json_file = open("apiserver/static/manitoba_courts.json", "r")
+            if json_file.closed is False:
+                json_data = json.loads(json_file.read())
+                return json_data
 
-            # Check if response response code is 200
-            if response.status_code == 200:
-                # Create beautifulsoup object
-                soup = bs4.BeautifulSoup(response.content.decode(), "lxml")
-
-                #
-
-            # Raise an exception if the respnse code is anthing except 200
-            else:
-                raise Exception(
-                    "Court Information could not be retrieved from the website"
-                )
+            return None
+        except OSError:
+            # Could not open the file
+            return None
         except Exception:
             # Error occurred
             return None

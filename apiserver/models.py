@@ -57,14 +57,23 @@ class Court(models.Model):
         ("A", "Appeal"),
         ("S", "Superior"),
         ("G", "General"),
-        ("T", "Administrative Tribunals")
+        ("T", "Administrative Tribunals"),
+        ("X", "Tax")
         # Empty if Supreme Branch
+    ]
+    COURT_SPECIALIZATION = [
+        ("Y", "Youth"),
+        ("F", "Family"),
+        ("S", "Small Claims"),
     ]
     court_branch = models.CharField(
         verbose_name="Court Branch", max_length=1, choices=COURT_BRANCHES
     )
     court_type = models.CharField(
         verbose_name="Court Type", max_length=1, choices=COURT_TYPES, blank=True
+    )
+    court_specialization = models.CharField(
+        "Court Specialization", max_length=1, choices=COURT_SPECIALIZATION, blank=True
     )
     locations = models.ManyToManyField(Location)
 

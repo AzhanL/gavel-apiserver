@@ -1561,6 +1561,7 @@
             "name": "Manitoba Court of Appeal",
             "branch": "provincial",
             "type": "appeal",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Hearings",
@@ -1646,6 +1647,7 @@
             "name": "Boissevain",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "S",
             "locations": [
                 {
                     "type": "Hearings",
@@ -1802,6 +1804,7 @@
             "name": "Brandon",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -1877,6 +1880,7 @@
             "name": "Dauphin",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -1962,6 +1966,7 @@
             "name": "Flin Flon",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -2047,6 +2052,7 @@
             "name": "Killarney",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "S",
             "locations": [
                 {
                     "type": "Hearings",
@@ -2200,6 +2206,7 @@
             "name": "Minnedosa",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -2313,6 +2320,7 @@
             "name": "Morden",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -2426,6 +2434,7 @@
             "name": "Portage la Prairie",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Hearings",
@@ -2589,6 +2598,7 @@
             "name": "Russell",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "S",
             "locations": [
                 {
                     "type": "Hearings",
@@ -2780,6 +2790,7 @@
             "name": "Selkirk",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -2865,6 +2876,7 @@
             "name": "St. Boniface",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -2978,6 +2990,7 @@
             "name": "Steinbach",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "S",
             "locations": [
                 {
                     "type": "Hearings",
@@ -3169,6 +3182,7 @@
             "name": "Swan River",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -3282,6 +3296,7 @@
             "name": "The Pas",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -3367,6 +3382,7 @@
             "name": "Thompson",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -3452,6 +3468,7 @@
             "name": "Virden",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Court Office",
@@ -3565,6 +3582,7 @@
             "name": "Winnipeg",
             "branch": "provincial",
             "type": "superior",
+            "specialization": "",
             "locations": [
                 {
                     "type": "Hearings",
