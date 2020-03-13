@@ -19,7 +19,7 @@ class TimeSlot(models.Model):
         ]
 
 
-class OperationalHoursPerDay(models.Model):
+class OperationalDay(models.Model):
     DAYS = [
         ("MO", "Monday"),
         ("TU", "Tuesday"),
@@ -59,7 +59,7 @@ class Location(models.Model):
                                    null=True)
     phone_number = PhoneNumberField(verbose_name="Phone Number", blank=True)
     fax_number = PhoneNumberField(verbose_name="Fax Number", blank=True)
-    operational_days = models.ManyToManyField(OperationalHoursPerDay)
+    operational_days = models.ManyToManyField(OperationalDay)
 
     def __str__(self):
         output_name = (self.name + ' - ') if (self.name != '') else ("")
