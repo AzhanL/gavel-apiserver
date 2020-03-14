@@ -138,8 +138,8 @@ class UpdateCourtInfo(graphene.Mutation):
                 # and check if they are empty
                 court_branch = str(court['branch'][0]).upper() if len(
                     court['branch']) > 0 else "U"
-                court_type = str(
-                    court['type'][0]).upper() if len(court['type']) > 0 else "G"
+                court_type = str(court['type'][0]).upper() if len(
+                    court['type']) > 0 else "G"
                 court_specialization = str(
                     court['specialization'][0]).upper() if len(
                         court['specialization']) > 0 else "G"
@@ -148,7 +148,7 @@ class UpdateCourtInfo(graphene.Mutation):
                 court_obj, created = Court.objects.get_or_create(
                     name=court['name'],
                     court_branch=court_branch,
-                    court_type=court_specialization,
+                    court_type=court_type,
                     court_specialization=court_specialization)
 
                 # If the court is newly created, save it first
