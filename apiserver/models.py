@@ -60,6 +60,9 @@ class Location(models.Model):
     phone_number = PhoneNumberField(verbose_name="Phone Number", blank=True)
     fax_number = PhoneNumberField(verbose_name="Fax Number", blank=True)
     operational_days = models.ManyToManyField(OperationalDay)
+    location_type = models.CharField(verbose_name="Location Type",
+                                     max_length=255,
+                                     blank=True)
 
     def __str__(self):
         output_name = (self.name + ' - ') if (self.name != '') else ("")
@@ -69,7 +72,7 @@ class Location(models.Model):
         constraints = [
             models.UniqueConstraint(fields=[
                 'name', 'address_line_1', 'address_line_2', 'city', 'province',
-                'postal_code'
+                'postal_code', 'location_type'
             ],
                                     name="unique_location")
         ]
@@ -77,31 +80,25 @@ class Location(models.Model):
 
 class Court(models.Model):
     name = models.CharField(verbose_name="Court Name", max_length=255)
-    COURT_BRANCHES = [
-        ("P", "Provincial"),
-        ("F", "Federal"),
-        ("M", "Military"),
-        ("S", "Supreme"),
-    ]
+    COURT_BRANCHES = (("P", "Provincial"), ("F", "Federal"), ("M", "Military"),
+                      ("S", "Supreme"), ("U", "Unknown"))
     # Empty if Supreme Branch
-    COURT_TYPES = [("A", "Appeal"), ("S", "Superior"), ("G", "General"),
-                   ("T", "Administrative Tribunals"), ("X", "Tax")]
-    COURT_SPECIALIZATION = [
-        ("Y", "Youth"),
-        ("F", "Family"),
-        ("S", "Small Claims"),
-    ]
+    COURT_TYPES = (("A", "Appeal"), ("S", "Superior"), ("G", "General"),
+                   ("T", "Administrative Tribunals"), ("X", "Tax"))
+    COURT_SPECIALIZATION = (("Y", "Youth"), ("F", "Family"),
+                            ("S", "Small Claims"), ("G", "General"))
     court_branch = models.CharField(verbose_name="Court Branch",
                                     max_length=1,
-                                    choices=COURT_BRANCHES)
+                                    choices=COURT_BRANCHES,
+                                    default="U")
     court_type = models.CharField(verbose_name="Court Type",
                                   max_length=1,
                                   choices=COURT_TYPES,
-                                  blank=True)
+                                  default="G")
     court_specialization = models.CharField("Court Specialization",
                                             max_length=1,
                                             choices=COURT_SPECIALIZATION,
-                                            blank=True)
+                                            default="G")
     locations = models.ManyToManyField(Location)
 
     def __str__(self):
