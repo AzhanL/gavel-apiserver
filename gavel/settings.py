@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "apiserver.apps.ApiServerConfig",
+    "graphene_django",
+    "apiserver",
     "phonenumber_field"
 ]
 
