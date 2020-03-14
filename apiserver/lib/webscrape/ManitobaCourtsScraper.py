@@ -7,7 +7,7 @@ from typing import List
 import bs4
 import requests
 
-from WebScraper import WebScraper
+from .WebScraper import WebScraper
 import json
 
 # Courts will be assigned the following properties
@@ -322,6 +322,6 @@ class ManitobaCourtsScraper(WebScraper):
             # Could not open the file
             return None
         except Exception:
-            # Error occurred
+            # Unknown error occurred
             return None
         return None
