@@ -150,15 +150,22 @@ class Hearing(models.Model):
                              blank=True)
 
     def __str__(self):
-        title = self.title + " - " if self.title is not None else ""
-        party_name = self.party_name + " - " if self.party_name is not None else ""
+        title = self.title + " - " if (self.title is not None) or (
+            self.title != "") else ""
+        file_num = self.court_file_number + " - " if (
+            self.court_file_number is not None) or (
+                self.court_file_number != "") else ""
+        party_name = self.party_name + " - " if (
+            self.party_name is not None) or (self.party_name != "") else ""
         date_time = self.date_time.strftime(
             "%b %d, %Y (%H:%M)") if self.date_time is not None else ""
-        return f"{title}{party_name}{date_time}"
+        return f"{file_num}{title}{party_name}{date_time}"
 
     class Meta:
         constraints = [
-            models.UniqueConstraint(
-                fields=['date_time', 'court_file_number', 'party_name'],
-                name="unique_hearing")
+            models.UniqueConstraint(fields=[
+                'date_time', 'court_file_number', 'party_name', 'hearing_type',
+                'lawyer'
+            ],
+                                    name="unique_hearing")
         ]
