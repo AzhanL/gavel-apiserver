@@ -1,11 +1,39 @@
 from django.contrib import admin
 
-from .models import (Court, Hearing, Location, OperationalDay, Room,
-                     TimeSlot)
+from .models import (Court, Hearing, Location, OperationalDay, Room, TimeSlot)
+
+
 # Register your models here.
-admin.site.register(Court)
-admin.site.register(Hearing)
-admin.site.register(Location)
-admin.site.register(OperationalDay)
-admin.site.register(Room)
-admin.site.register(TimeSlot)
+@admin.register(Court)
+class CourtAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Hearing)
+class HearingAdmin(admin.ModelAdmin):
+    list_display = [
+        'title', 'party_name', 'lawyer', 'date_time', 'court_file_number',
+        'hearing_type'
+    ]
+    search_fields = ['court_file_number']
+    pass
+
+
+@admin.register(Location)
+class LocationAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(OperationalDay)
+class OperationalDay(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Room)
+class RoomAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(TimeSlot)
+class TimeSlotAdmin(admin.ModelAdmin):
+    pass
