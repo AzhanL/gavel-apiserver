@@ -1730,72 +1730,69 @@
                 {
                     "type": "Court Office",
                     "address": {
-                        "type": "Court Office",
-                        "address": {
-                            "name": "Brandon Court Office",
-                            "address_line_1": "100 - 1104 Princess Avenue ",
-                            "address_line_2": "",
-                            "city": "Brandon",
-                            "province": "MB",
-                            "postal_code": "R7A0P9",
-                            "phone_number": "2047266240",
-                            "fax": "2047266547",
-                            "hours_of_operations": [
-                                {
-                                    "times": [
-                                        {
-                                            "start": "8:30",
-                                            "stop": "16:30"
-                                        }
-                                    ],
-                                    "day": "MO"
-                                },
-                                {
-                                    "times": [
-                                        {
-                                            "start": "8:30",
-                                            "stop": "16:30"
-                                        }
-                                    ],
-                                    "day": "TU"
-                                },
-                                {
-                                    "times": [
-                                        {
-                                            "start": "8:30",
-                                            "stop": "16:30"
-                                        }
-                                    ],
-                                    "day": "WE"
-                                },
-                                {
-                                    "times": [
-                                        {
-                                            "start": "8:30",
-                                            "stop": "16:30"
-                                        }
-                                    ],
-                                    "day": "TH"
-                                },
-                                {
-                                    "times": [
-                                        {
-                                            "start": "8:30",
-                                            "stop": "16:30"
-                                        }
-                                    ],
-                                    "day": "FR"
-                                },
-                                {
-                                    "times": [],
-                                    "day": "SA"
-                                },
-                                {
-                                    "times": [],
-                                    "day": "SU"
-                                }
-                            ]
-                        }
+                        "name": "Brandon Court Office",
+                        "address_line_1": "100 - 1104 Princess Avenue ",
+                        "address_line_2": "",
+                        "city": "Brandon",
+                        "province": "MB",
+                        "postal_code": "R7A0P9",
+                        "phone_number": "2047266240",
+                        "fax": "2047266547",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [],
+                                "day": "SU"
+                            }
+                        ]
                     }
                 }
             ]
