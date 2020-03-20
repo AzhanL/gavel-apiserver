@@ -18,7 +18,8 @@ For dnf (Fedora...):
 sudo dnf install python3-devel 
 ```
 
-## Full Command Deploy
+## Running Server
+### Install Dependencies and Collect Static Files
 ```shell
 pip3 install pipenv
 pipenv --python 3.7
@@ -29,9 +30,17 @@ pipenv install
 ./manage.py collectstatic
 
 pip3 install uwsgi
-uwsgi uwsgi.ini
 ```
-
+### Launch and Daemonize
+```bash
+uwsgi --yaml uwsgi.yaml &
+disown
+```
+or 
+```bash
+uwsgi uwsgi.ini &
+disown
+```
 #### Update Court Info
 ```json
 mutation {
