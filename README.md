@@ -10,12 +10,12 @@ sudo apt-get install python3-dev
 
 For yum (CentOS, RHEL...):
 ```bash
-sudo yum install python3-devel   # for python3.x installs
+sudo yum install python3-devel 
 ```
 
 For dnf (Fedora...):
 ```bash
-sudo dnf install python3-devel  # for python3.x installs
+sudo dnf install python3-devel 
 ```
 
 ## Full Command Deploy
