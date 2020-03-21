@@ -79,7 +79,10 @@ class UpdateCourtInfo(graphene.Mutation):
                         city=location['address']['city'],
                         province=location['address']['province'],
                         postal_code=location['address']['postal_code'],
-                        location_type=location['type'])
+                        location_type=location['type'],
+                        phone_number=location['address']['phone_number'],
+                        fax_number=location['address']['fax'],
+                        )
 
                     # Clear the old timings
                     location_obj.operational_days.clear()

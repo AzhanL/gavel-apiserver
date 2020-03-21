@@ -72,7 +72,7 @@ class Location(models.Model):
         constraints = [
             models.UniqueConstraint(fields=[
                 'name', 'address_line_1', 'address_line_2', 'city', 'province',
-                'postal_code', 'location_type'
+                'postal_code', 'location_type', 'phone_number', 'fax_number'
             ],
                                     name="unique_location")
         ]
