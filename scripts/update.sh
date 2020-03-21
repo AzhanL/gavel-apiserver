@@ -10,4 +10,5 @@ git pull
 ./manage.py makemigrations
 ./manage.py migrate
 
-uwsgi --yaml uwsgi.yaml
+uwsgi --yaml uwsgi.yaml &
+disown
