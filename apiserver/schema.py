@@ -44,12 +44,10 @@ class UpdateCourtInfo(graphene.Mutation):
 
     def mutate(parent, info):
         message = ""
-        user = info.context.user
-
-        # if user.is_anonymous:
-        #     return UpdateCourtInfo(
-        #         successful=False,
-        #         status_message="Could not update the court info")
+        # Check authentication
+        if not info.context.user.is_authenticated:
+            return UpdateCourtInfo(successful=False,
+                                   status_message="Please authenticate")
 
         # Create a new scraper
         mb_scraper = ManitobaCourtsScraper()
@@ -187,6 +185,11 @@ class UpdateHearings(graphene.Mutation):
         next_days = graphene.Int()
 
     def mutate(parent, info, last_days=None, next_days=None):
+        # Check authentication or authentication format is wrong\
+        if not info.context.user.is_authenticated:
+            return UpdateHearings(successful=False,
+                                  status_message="Please authenticate")
+
         scraper = ManitobaCourtsScraper()
         # Create todays dates
         back_date = date.today()
