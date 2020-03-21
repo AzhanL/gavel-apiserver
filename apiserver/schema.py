@@ -82,7 +82,7 @@ class UpdateCourtInfo(graphene.Mutation):
                         location_type=location['type'],
                         phone_number=location['address']['phone_number'],
                         fax_number=location['address']['fax'],
-                        )
+                    )
 
                     # Clear the old timings
                     location_obj.operational_days.clear()
@@ -258,6 +258,7 @@ class Query(graphene.ObjectType):
                              date_field=graphene.DateTime(),
                              party_name=graphene.String(),
                              title=graphene.String(),
+                             skip=graphene.Int(),
                              count=graphene.Int())
     rooms = graphene.List(RoomType)
     locations = graphene.List(LocationType)
@@ -276,7 +277,8 @@ class Query(graphene.ObjectType):
                          date_field=None,
                          party_name=None,
                          title=None,
-                         count=10):
+                         skip=None,
+                         count=None):
         # Check if 1 filter is at least given
         if (file_number is None) and (date is None) and (
                 party_name is None) and (title is None):
@@ -300,11 +302,24 @@ class Query(graphene.ObjectType):
             all_hearings = all_hearings.filter(
                 Q(party_name__icontains=party_name))
 
+        # Skips this many results
+        if skip and skip >= 0:
+            all_hearings = all_hearings[skip:]
+
+        # Limit the return
+        if count:
+            if count <= 100 and count >= 0:
+                all_hearings = all_hearings[:count]
+            else:
+                all_hearings = all_hearings[:100]
+        else:
+            all_hearings = all_hearings[:100]
+
         # Search title
         if title:
             all_hearings = all_hearings.filter(Q(title__icontains=title))
 
-        return all_hearings
+        return all_hearings[:count]
 
     def resolve_rooms(parent, info):
         return Room.objects.all()
