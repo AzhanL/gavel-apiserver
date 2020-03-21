@@ -10,3 +10,4 @@ vscode.code-workspace
 db.sqlite3
 .vscode*
 static/*
+scrapfolder/*
