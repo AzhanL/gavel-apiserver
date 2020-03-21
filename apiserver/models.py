@@ -148,6 +148,11 @@ class Hearing(models.Model):
                              on_delete=models.SET_NULL,
                              null=True,
                              blank=True)
+    court = models.ForeignKey(
+        Court,
+        on_delete=models.SET_NULL,
+        null=True,
+    )
 
     def __str__(self):
         title = self.title + " - " if (self.title is not None) or (
@@ -165,7 +170,7 @@ class Hearing(models.Model):
         constraints = [
             models.UniqueConstraint(fields=[
                 'date_time', 'court_file_number', 'party_name', 'hearing_type',
-                'lawyer'
+                'lawyer', 'court'
             ],
                                     name="unique_hearing")
         ]

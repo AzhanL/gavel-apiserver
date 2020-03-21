@@ -13,7 +13,7 @@ class CourtAdmin(admin.ModelAdmin):
 class HearingAdmin(admin.ModelAdmin):
     list_display = [
         'title', 'party_name', 'lawyer', 'date_time', 'court_file_number',
-        'hearing_type'
+        'hearing_type', 'court'
     ]
     search_fields = ['court_file_number']
     pass

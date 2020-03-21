@@ -226,9 +226,14 @@ class UpdateHearings(graphene.Mutation):
                         location_name = location_name[:location_name.
                                                       index("-QB")]
 
+                    # Find Court where its taking place
+                    court: Court = Court.objects.filter(
+                        Q(name__icontains=location_name)).first()
+
                     # TODO: Add room numbers when available
                     # Insert each hearing
                     hearing: Dict = {}
+
                     for hearing in hearings:
                         # TODO: Get room
 
@@ -247,7 +252,8 @@ class UpdateHearings(graphene.Mutation):
                             party_name=party_name,
                             date_time=date_time,
                             lawyer=lawyer,
-                            hearing_type=hearing_type)
+                            hearing_type=hearing_type,
+                            court=court)
                         hearing_obj.save()
 
         return UpdateHearings(successful=True,
