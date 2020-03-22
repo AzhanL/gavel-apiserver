@@ -352,7 +352,7 @@ class Query(graphene.ObjectType):
 
         # Check if ID is given
         if court_id:
-            return Court.object.filter(pk=court_id)
+            return Court.objects.filter(id=court_id)
 
         # Filter name
         if name_search:
