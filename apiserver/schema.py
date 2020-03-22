@@ -275,7 +275,8 @@ class Query(graphene.ObjectType):
     courts = graphene.List(CourtType,
                            name_search=graphene.String(),
                            city_search=graphene.String(),
-                           province_search=graphene.String())
+                           province_search=graphene.String(),
+                           court_id=graphene.Int())
 
     def resolve_timeslots(parent, info):
         return TimeSlot.objects.all()
@@ -289,8 +290,9 @@ class Query(graphene.ObjectType):
                          skip=None,
                          count=None):
         # Check if 1 filter is at least given
-        if (file_number is None) and (date is None) and (
-                party_name is None) and (title is None):
+        if (file_number is
+                None) and (date is None) and (party_name is None) and (
+                    title is None) and (skip is None) and (count is None):
             return Hearing.objects.order_by('-date_time')[:count]
 
         all_hearings = Hearing.objects.all()
@@ -343,9 +345,14 @@ class Query(graphene.ObjectType):
                        info,
                        name_search=None,
                        city_search=None,
-                       province_search=None):
+                       province_search=None,
+                       court_id=None):
         # Courts
         all_courts = Court.objects.all()
+
+        # Check if ID is given
+        if court_id:
+            return Court.object.filter(pk=court_id)
 
         # Filter name
         if name_search:
