@@ -1,7 +1,5 @@
 #!/bin/bash
-
-pipenv shell
-
+# Must already have executed 'pipenv shell' and be in the python virtual environment
 cd ..
 
 echo "Pulling updates..."
