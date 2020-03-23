@@ -12,10 +12,16 @@ class CourtAdmin(admin.ModelAdmin):
 @admin.register(Hearing)
 class HearingAdmin(admin.ModelAdmin):
     list_display = [
-        'title', 'party_name', 'lawyer', 'date_time', 'court_file_number',
+        'court_file_number', 'title', 'party_name', 'lawyer', 'date_time',
         'hearing_type', 'court'
     ]
-    search_fields = ['court_file_number']
+    search_fields = [
+        'title__icontains',
+        'court_file_number__icontains',
+        'party_name__icontains',
+        'lawyer__icontains',
+    ]
+    list_filter = ('hearing_type', 'court')
     pass
 
 
