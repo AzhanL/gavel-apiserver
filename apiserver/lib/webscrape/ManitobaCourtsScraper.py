@@ -1,21 +1,27 @@
+import calendar
 import copy
+import json
 import os
 import re
 import time
+from datetime import datetime, timedelta
 from typing import List
 
 import bs4
 import requests
 
 from .WebScraper import WebScraper
-import json
 
 # Courts will be assigned the following properties
 court_template = {
-    "name": "Court Name",
-    "branch": "provincial/federal/military/supreme",
-    "type": "appeal/superior/general/administrative_tribunals/tax/null (if supreme)",
-    "specialization": "",
+    "name":
+    "Court Name",
+    "branch":
+    "provincial/federal/military/supreme",
+    "type":
+    "appeal/superior/general/administrative_tribunals/tax/null (if supreme)",
+    "specialization":
+    "",
     "locations": [
         {
             "type": "Court Office/Hearing",
@@ -32,52 +38,101 @@ court_template = {
                 "hours_of_operations": {
                     0: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Monday",
+                        "day":
+                        "Monday",
                     },
                     1: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Tuesday",
+                        "day":
+                        "Tuesday",
                     },
                     2: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Wednesday",
+                        "day":
+                        "Wednesday",
                     },
                     3: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Thursday",
+                        "day":
+                        "Thursday",
                     },
                     4: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Friday",
+                        "day":
+                        "Friday",
                     },
                     5: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Saturday",
+                        "day":
+                        "Saturday",
                     },
                     6: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Sunday",
+                        "day":
+                        "Sunday",
                     },
                 },
             },
@@ -97,52 +152,101 @@ court_template = {
                 "hours_of_operations": {
                     0: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Monday",
+                        "day":
+                        "Monday",
                     },
                     1: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Tuesday",
+                        "day":
+                        "Tuesday",
                     },
                     2: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Wednesday",
+                        "day":
+                        "Wednesday",
                     },
                     3: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Thursday",
+                        "day":
+                        "Thursday",
                     },
                     4: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Friday",
+                        "day":
+                        "Friday",
                     },
                     5: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Saturday",
+                        "day":
+                        "Saturday",
                     },
                     6: {
                         "times": [
-                            {"start": "8:00", "stop": "12:00"},
-                            {"start": "13:00", "stop": "16:30"},
+                            {
+                                "start": "8:00",
+                                "stop": "12:00"
+                            },
+                            {
+                                "start": "13:00",
+                                "stop": "16:30"
+                            },
                         ],
-                        "day": "Sunday",
+                        "day":
+                        "Sunday",
                     },
                 },
             },
@@ -187,9 +291,8 @@ class ManitobaCourtsScraper(WebScraper):
             if not ((0 <= day <= 31) and (1 <= month <= 12)):
                 raise ValueError("Day or month have incorrect range")
             # Check paramter types
-            if not (
-                (type(day) is int) and (type(month) is int) and (type(year) is int)
-            ):
+            if not ((type(day) is int) and (type(month) is int) and
+                    (type(year) is int)):
                 raise TypeError("Day, month or year are incorrect type")
 
             # Create a new request session
@@ -219,15 +322,15 @@ class ManitobaCourtsScraper(WebScraper):
                             location_code = matches.group(0)
 
                             location_hearings = self.scrapeCourtHearings(
-                                day, month, year, location_code, session
-                            )
+                                day, month, year, location_code, session)
                             # TODO: Use Location name and loctation type
                             #       instead of the name
                             # Get the location name from the text and
                             # remove court type
                             # court_tag.text = "Winnipeg-QB"
                             location_name = court_tag.text
-                            all_hearings.append({location_name: location_hearings})
+                            all_hearings.append(
+                                {location_name: location_hearings})
 
                 # Return all the hearing retrieved
                 return all_hearings
@@ -292,12 +395,23 @@ class ManitobaCourtsScraper(WebScraper):
                     # Fifth column: Court date-time
                     combined_time = f"{table_data[3].text} {table_data[4].text}"
 
-                    # Set the environment to winnipeg time and caulculate the epoch time
-                    os.environ["TZ"] = "America/Winnipeg"
-                    winnipeg_time = time.strptime(combined_time, r"%d-%b-%Y %H:%M")
-                    hearing_info["epoch_time"] = time.mktime(winnipeg_time)
-                    # Change back to UTC Time
-                    os.environ["TZ"] = "UTC"
+                    # Create a time format to parse time
+                    time_format = r"%d-%b-%Y %H:%M"
+                    # caulculate the epoch time
+                    winnipeg_time = datetime.strptime(combined_time,
+                                                      time_format)
+
+                    # Add the timezone
+                    combined_time += " -0500" if self.isDaylightSavingTime(
+                        winnipeg_time) else " -0600"
+                    # Create new time format with timezone
+                    time_format = r"%d-%b-%Y %H:%M %z"
+
+                    # Create a new time
+                    winnipeg_time = datetime.strptime(combined_time,
+                                                      time_format)
+                    # Set the epoch time
+                    hearing_info["epoch_time"] = winnipeg_time.timestamp()
                     # Sixth column: Hearing Type
                     hearing_info["type"] = table_data[5].text
 
@@ -325,3 +439,84 @@ class ManitobaCourtsScraper(WebScraper):
             # Unknown error occurred
             return None
         return None
+
+    def isDaylightSavingTime(self, datetime_obj: datetime):
+        # Daylight saving act refer to: https://web2.gov.mb.ca/laws/statutes/ccsm/o030e.php
+        # 2006 has special day light saving time for 2006
+        if datetime_obj.year == 2006:
+            # Get the start of DST (first sunday of april, 02:00)
+            start_dst = self.forwardDayOfMonth(calendar.SUNDAY, 2016, 4, 2, 0,
+                                               0, 1)
+            # Get the end of DST (last sunday of october, 02:00)
+            end_dst = self.backwardDayOfMonth(calendar.SUNDAY, 2016, 10, 2, 0,
+                                              0, 1)
+
+            return start_dst <= datetime_obj <= end_dst
+        # 2017 and onward
+        elif datetime_obj.year >= 2007:
+            # Get the start of DST (second sunday of march, 02:00)
+            start_dst = self.forwardDayOfMonth(calendar.SUNDAY,
+                                               datetime_obj.year, 3, 2, 0, 0,
+                                               2)
+            # Get the end of DST (first sunday of november, 02:00)
+            end_dst = self.forwardDayOfMonth(calendar.SUNDAY,
+                                             datetime_obj.year, 11, 2, 0, 0, 1)
+
+            return start_dst <= datetime_obj <= end_dst
+
+        # Previous years did not have DST
+        elif datetime_obj.year <= 2005:
+            return false
+
+    def forwardDayOfMonth(self,
+                          day_of_week,
+                          year,
+                          month,
+                          hour,
+                          minute,
+                          second,
+                          position=1) -> datetime:
+        try:
+            # Position 1 means first day of month, 2 means second day of month
+            start_day, days_in_month = calendar.monthrange(year, month)
+            offset = (day_of_week - start_day) % 7
+            first_of_month = datetime(year,
+                                      month,
+                                      1,
+                                      hour=hour,
+                                      minute=minute,
+                                      second=second)
+
+            first_day_of_month = first_of_month + timedelta(days=(offset + (
+                (position - 1) * 7)))
+            return first_day_of_month
+
+        except Exception:
+            return None
+
+    def backwardDayOfMonth(self,
+                           day_of_week,
+                           year,
+                           month,
+                           hour,
+                           minute,
+                           second,
+                           position=1) -> datetime:
+        try:
+            # Position 1 means last day of month, position 2 means second last day of month
+            start_day, days_in_month = calendar.monthrange(year, 4)
+            offset = (day_of_week -
+                      calendar.weekday(year, month, days_in_month)) % 7
+            last_of_month = datetime(year,
+                                     month,
+                                     days_in_month,
+                                     hour=hour,
+                                     minute=minute,
+                                     second=second)
+
+            last_day_of_month = last_of_month - timedelta(days=(offset + (
+                (position - 1) * 7)))
+            return last_day_of_month
+
+        except Exception:
+            return None
