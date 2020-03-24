@@ -243,6 +243,7 @@ class UpdateHearings(graphene.Mutation):
                         party_name = hearing.get('party_name', "")
                         date_time = datetime.fromtimestamp(
                             hearing.get('epoch_time', 0))
+                        date_time_offset = hearing.get('utc_offset', '+0000')
                         lawyer = hearing.get('lawyer', "")
                         hearing_type = hearing.get('type', "")
                         # Create and save the object
@@ -254,6 +255,17 @@ class UpdateHearings(graphene.Mutation):
                             lawyer=lawyer,
                             hearing_type=hearing_type,
                             court=court)
+                        
+                        # Update all the values again if needed
+                        hearing_obj.title = title
+                        hearing_obj.court_file_number = court_file_number
+                        hearing_obj.party_name = party_name
+                        hearing_obj.date_time = date_time
+                        hearing_obj.date_time_offset = date_time_offset
+                        hearing_obj.lawyer = lawyer
+                        hearing_obj.hearing_type = hearing_type
+                        hearing_obj.court = court
+
                         hearing_obj.save()
 
         return UpdateHearings(successful=True,

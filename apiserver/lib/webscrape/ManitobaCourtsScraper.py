@@ -401,9 +401,13 @@ class ManitobaCourtsScraper(WebScraper):
                     winnipeg_time = datetime.strptime(combined_time,
                                                       time_format)
 
+                    # UTC Offset
+                    hearing_info[
+                        'utc_offset'] = " -0500" if self.isDaylightSavingTime(
+                            winnipeg_time) else " -0600"
+
                     # Add the timezone
-                    combined_time += " -0500" if self.isDaylightSavingTime(
-                        winnipeg_time) else " -0600"
+                    combined_time += hearing_info['utc_offset']
                     # Create new time format with timezone
                     time_format = r"%d-%b-%Y %H:%M %z"
 

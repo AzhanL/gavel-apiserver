@@ -140,6 +140,9 @@ class Hearing(models.Model):
     date_time = models.DateTimeField(verbose_name="Date & Time",
                                      blank=True,
                                      null=True)
+    date_time_offset = models.CharField(verbose_name="Datetime UTC Offset",
+                                        max_length=32,
+                                        blank=True)
     court_file_number = models.CharField(verbose_name="File Number",
                                          max_length=255)
     hearing_type = models.CharField(verbose_name="Hearing Type",
