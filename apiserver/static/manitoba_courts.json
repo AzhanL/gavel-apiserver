@@ -1,0 +1,3743 @@
+{
+    "addresses": [
+        {
+            "name": "Boissevain Town Office",
+            "address_line_1": "420 South Railway Street",
+            "address_line_2": "",
+            "city": "Boissevain",
+            "province": "MB",
+            "postal_code": "R0K0E0",
+            "phone_number": "2047266240",
+            "fax": "",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Brandon Court Office",
+            "address_line_1": "100 - 1104 Princess Avenue ",
+            "address_line_2": "",
+            "city": "Brandon",
+            "province": "MB",
+            "postal_code": "R7A0P9",
+            "phone_number": "2047266240",
+            "fax": "2047266547",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [],
+                    "day": "SA"
+                },
+                {
+                    "times": [],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Dauphin Court Office",
+            "address_line_1": "114 River Avenue West",
+            "address_line_2": "",
+            "city": "Dauphin",
+            "province": "MB",
+            "postal_code": "R7N0J7",
+            "phone_number": "2046222087",
+            "fax": "2046222099",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Flin Flon Court Office",
+            "address_line_1": "104 – 143 Main Street",
+            "address_line_2": "",
+            "city": "Flin Flon",
+            "province": "MB",
+            "postal_code": "R8A1K2",
+            "phone_number": "2046871670",
+            "fax": "2046871673",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Killarney Municipal Office",
+            "address_line_1": "415 Broadway Avenue",
+            "address_line_2": "",
+            "city": "Killarney",
+            "province": "MB",
+            "postal_code": "",
+            "phone_number": "2047266240",
+            "fax": "",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Minnedosa Court Office",
+            "address_line_1": "70 – 3rd Avenue South West ",
+            "address_line_2": "Box 414 ",
+            "city": "Minnedosa",
+            "province": "MB",
+            "postal_code": "R0J 1E0",
+            "phone_number": "2048674722",
+            "fax": "2048674720",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Morden Court Office",
+            "address_line_1": "301 Wardrop Street",
+            "address_line_2": "",
+            "city": "Morden",
+            "province": "MB",
+            "postal_code": "R6M1X6",
+            "phone_number": "2048222882",
+            "fax": "2048222883",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Portage la Prairie Court Office",
+            "address_line_1": "20 - 3rd Street South East",
+            "address_line_2": "",
+            "city": "Portage la Prairie",
+            "province": "MB",
+            "postal_code": "R1N1M9",
+            "phone_number": "2042393383",
+            "fax": "2042393402",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Portage la Prairie Court Office",
+            "address_line_1": "25 Tupper Street North",
+            "address_line_2": "B28",
+            "city": "Portage la Prairie",
+            "province": "MB",
+            "postal_code": "R1N3K1",
+            "phone_number": "2042393383",
+            "fax": "2042393402",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Russell & District Community Centre",
+            "address_line_1": "106 Shell River Avenue South",
+            "address_line_2": "",
+            "city": "Russell",
+            "province": "MB",
+            "postal_code": "R0J1W0",
+            "phone_number": "2048674722",
+            "fax": "",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Selkirk Court Office",
+            "address_line_1": "101 – 235 Eaton Avenue",
+            "address_line_2": "",
+            "city": "Selkirk",
+            "province": "MB",
+            "postal_code": "R1A0W7",
+            "phone_number": "2047855122 ",
+            "fax": "2047855125",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "St. Boniface Court Office",
+            "address_line_1": "100 - 614 Des Meurons Street",
+            "address_line_2": "",
+            "city": "St. Boniface",
+            "province": "MB",
+            "postal_code": "R2H2P9",
+            "phone_number": "2049458010",
+            "fax": "2049455562",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Steinbach Court Office",
+            "address_line_1": "284 Reimer Avenue",
+            "address_line_2": "Unit A",
+            "city": "Steinbach",
+            "province": "MB",
+            "postal_code": "2049458010",
+            "phone_number": "R5G0R5",
+            "fax": "",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Swan River Court Office",
+            "address_line_1": "201 - 4th Avenue South",
+            "address_line_2": "Box 206",
+            "city": "Swan River",
+            "province": "MB",
+            "postal_code": "R0L1Z0",
+            "phone_number": "2047342252",
+            "fax": "2047349544",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "The Pas Court Office",
+            "address_line_1": "300 – 3rd Street East ",
+            "address_line_2": "Box 1259",
+            "city": "The Pas",
+            "province": "MB",
+            "postal_code": "R9A1L2",
+            "phone_number": "2046278420",
+            "fax": "2046236528",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Thompson Court Office",
+            "address_line_1": "59 Elizabeth Drive",
+            "address_line_2": "Box 34",
+            "city": "Thompson",
+            "province": "MB",
+            "postal_code": "R8N1X4",
+            "phone_number": "2046776757",
+            "fax": "2046776686",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Virden Court Office",
+            "address_line_1": "232 Wellington Street West ",
+            "address_line_2": "Box 1478",
+            "city": "Virden",
+            "province": "MB",
+            "postal_code": "R0M2C0",
+            "phone_number": "2047484288",
+            "fax": "2047482980",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "12:00"
+                        },
+                        {
+                            "start": "13:00",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "Law Courts Building Main Floor",
+            "address_line_1": "408 York Avenue",
+            "address_line_2": "",
+            "city": "Winnipeg",
+            "province": "MB",
+            "postal_code": "R3C0P9",
+            "phone_number": "2049450344",
+            "fax": "2049482369",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "address_line_1": "373 Broadway",
+            "address_line_2": "",
+            "city": "Winnipeg",
+            "province": "MB",
+            "postal_code": "R3C4S4",
+            "phone_number": "",
+            "fax": "",
+            "hours_of_operations": [
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "MO"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TU"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "WE"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "TH"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "FR"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SA"
+                },
+                {
+                    "times": [
+                        {
+                            "start": "8:30",
+                            "stop": "16:30"
+                        }
+                    ],
+                    "day": "SU"
+                }
+            ]
+        }
+    ],
+    "courts": [
+        {
+            "name": "Manitoba Court of Appeal",
+            "branch": "provincial",
+            "type": "appeal",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "Law Courts Building 100E",
+                        "address_line_1": " 408 York Avenue",
+                        "address_line_2": "",
+                        "city": "Boissevain",
+                        "province": "MB",
+                        "postal_code": "R3C0P9",
+                        "phone_number": "2049452647",
+                        "fax": "2049482072",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Boissevain",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "S",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "Boissevain Town Office",
+                        "address_line_1": "420 South Railway Street",
+                        "address_line_2": "",
+                        "city": "Boissevain",
+                        "province": "MB",
+                        "postal_code": "R0K0E0",
+                        "phone_number": "2047266240",
+                        "fax": "",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Brandon Court Office",
+                        "address_line_1": "100 - 1104 Princess Avenue ",
+                        "address_line_2": "",
+                        "city": "Brandon",
+                        "province": "MB",
+                        "postal_code": "R7A0P9",
+                        "phone_number": "2047266240",
+                        "fax": "2047266547",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Brandon",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Brandon Court Office",
+                        "address_line_1": "100 - 1104 Princess Avenue ",
+                        "address_line_2": "",
+                        "city": "Brandon",
+                        "province": "MB",
+                        "postal_code": "R7A0P9",
+                        "phone_number": "2047266240",
+                        "fax": "2047266547",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Dauphin",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Dauphin Court Office",
+                        "address_line_1": "114 River Avenue West",
+                        "address_line_2": "",
+                        "city": "Dauphin",
+                        "province": "MB",
+                        "postal_code": "R7N0J7",
+                        "phone_number": "2046222087",
+                        "fax": "2046222099",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Flin Flon",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Flin Flon Court Office",
+                        "address_line_1": "104 - 143 Main Street",
+                        "address_line_2": "",
+                        "city": "Flin Flon",
+                        "province": "MB",
+                        "postal_code": "R8A1K2",
+                        "phone_number": "2046871670",
+                        "fax": "2046871673",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Killarney",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "S",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "Killarney Municipal Office",
+                        "address_line_1": "415 Broadway Avenue",
+                        "address_line_2": "",
+                        "city": "Killarney",
+                        "province": "MB",
+                        "postal_code": "",
+                        "phone_number": "2047266240",
+                        "fax": "",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Brandon Court Office",
+                        "address_line_1": "100 - 1104 Princess Avenue ",
+                        "address_line_2": "",
+                        "city": "Brandon",
+                        "province": "MB",
+                        "postal_code": "R7A0P9",
+                        "phone_number": "2047266240",
+                        "fax": "2047266547",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Minnedosa",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Minnedosa Court Office",
+                        "address_line_1": "70 – 3rd Avenue South West ",
+                        "address_line_2": "Box 414 ",
+                        "city": "Minnedosa",
+                        "province": "MB",
+                        "postal_code": "R0J 1E0",
+                        "phone_number": "2048674722",
+                        "fax": "2048674720",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Morden",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Morden Court Office",
+                        "address_line_1": "301 Wardrop Street",
+                        "address_line_2": "",
+                        "city": "Morden",
+                        "province": "MB",
+                        "postal_code": "R6M1X6",
+                        "phone_number": "2048222882",
+                        "fax": "2048222883",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Portage la Prairie",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "",
+                        "address_line_1": "20 - 3rd Street South East",
+                        "address_line_2": "",
+                        "city": "Portage la Prairie",
+                        "province": "MB",
+                        "postal_code": "R1N1M9",
+                        "phone_number": "2042393383",
+                        "fax": "2042393402",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Portage la Prairie Court Office",
+                        "address_line_1": "25 Tupper Street North",
+                        "address_line_2": "B28",
+                        "city": "Portage la Prairie",
+                        "province": "MB",
+                        "postal_code": "R1N3K1",
+                        "phone_number": "2042393383",
+                        "fax": "2042393402",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Russell",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "S",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "Russell & District Community Centre",
+                        "address_line_1": "106 Shell River Avenue South",
+                        "address_line_2": "",
+                        "city": "Russell",
+                        "province": "MB",
+                        "postal_code": "R0J1W0",
+                        "phone_number": "2048674722",
+                        "fax": "",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Minnedosa Court Office",
+                        "address_line_1": "70 - 3rd Avenue South West ",
+                        "address_line_2": "Box 414 ",
+                        "city": "Minnedosa",
+                        "province": "MB",
+                        "postal_code": "R0J 1E0",
+                        "phone_number": "2048674722",
+                        "fax": "2048674720",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Selkirk",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Selkirk Court Office",
+                        "address_line_1": "101 – 235 Eaton Avenue",
+                        "address_line_2": "",
+                        "city": "Selkirk",
+                        "province": "MB",
+                        "postal_code": "R1A0W7",
+                        "phone_number": "2047855122 ",
+                        "fax": "2047855125",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "St. Boniface",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "St. Boniface Court Office",
+                        "address_line_1": "100 - 614 Des Meurons Street",
+                        "address_line_2": "",
+                        "city": "St. Boniface",
+                        "province": "MB",
+                        "postal_code": "R2H2P9",
+                        "phone_number": "2049458010",
+                        "fax": "2049455562",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Steinbach",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "S",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "Steinbach Court Office",
+                        "address_line_1": "284 Reimer Avenue",
+                        "address_line_2": "Unit A",
+                        "city": "Steinbach",
+                        "province": "MB",
+                        "postal_code": "2049458010",
+                        "phone_number": "R5G0R5",
+                        "fax": "",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "St. Boniface Court Office",
+                        "address_line_1": "100 - 614 Des Meurons Street",
+                        "address_line_2": "",
+                        "city": "St. Boniface",
+                        "province": "MB",
+                        "postal_code": "R2H2P9",
+                        "phone_number": "2049458010",
+                        "fax": "2049455562",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Swan River",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Swan River Court Office",
+                        "address_line_1": "201 - 4th Avenue South",
+                        "address_line_2": "Box 206",
+                        "city": "Swan River",
+                        "province": "MB",
+                        "postal_code": "R0L1Z0",
+                        "phone_number": "2047342252",
+                        "fax": "2047349544",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Pas",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "The Pas Court Office",
+                        "address_line_1": "300 – 3rd Street East ",
+                        "address_line_2": "Box 1259",
+                        "city": "The Pas",
+                        "province": "MB",
+                        "postal_code": "R9A1L2",
+                        "phone_number": "2046278420",
+                        "fax": "2046236528",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Thompson",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Thompson Court Office",
+                        "address_line_1": "59 Elizabeth Drive",
+                        "address_line_2": "Box 34",
+                        "city": "Thompson",
+                        "province": "MB",
+                        "postal_code": "R8N1X4",
+                        "phone_number": "2046776757",
+                        "fax": "2046776686",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Virden",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Virden Court Office",
+                        "address_line_1": "232 Wellington Street West ",
+                        "address_line_2": "Box 1478",
+                        "city": "Virden",
+                        "province": "MB",
+                        "postal_code": "R0M2C0",
+                        "phone_number": "2047484288",
+                        "fax": "2047482980",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "12:00"
+                                    },
+                                    {
+                                        "start": "13:00",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Winnipeg",
+            "branch": "provincial",
+            "type": "superior",
+            "specialization": "",
+            "locations": [
+                {
+                    "type": "Hearings",
+                    "address": {
+                        "name": "",
+                        "address_line_1": "373 Broadway",
+                        "address_line_2": "",
+                        "city": "Winnipeg",
+                        "province": "MB",
+                        "postal_code": "R3C4S4",
+                        "phone_number": "",
+                        "fax": "",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Court Office",
+                    "address": {
+                        "name": "Law Courts Building Main Floor",
+                        "address_line_1": "408 York Avenue",
+                        "address_line_2": "",
+                        "city": "Winnipeg",
+                        "province": "MB",
+                        "postal_code": "R3C0P9",
+                        "phone_number": "2049450344",
+                        "fax": "2049482369",
+                        "hours_of_operations": [
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "MO"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TU"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "WE"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "TH"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "FR"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SA"
+                            },
+                            {
+                                "times": [
+                                    {
+                                        "start": "8:30",
+                                        "stop": "16:30"
+                                    }
+                                ],
+                                "day": "SU"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

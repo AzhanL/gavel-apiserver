@@ -1,0 +1,13 @@
+*.aspx
+Untitled*
+__pycache__*
+test*
+vscode.code-workspace
+*migrations*
+*.bak
+*scrapfolder*
+*.sqlite3*
+db.sqlite3
+.vscode*
+static/*
+scrapfolder/*

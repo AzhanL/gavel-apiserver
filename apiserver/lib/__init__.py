@@ -1,0 +1,2 @@
+from .webscrape.WebScraper import WebScraper
+from .webscrape.ManitobaCourtsScraper import ManitobaCourtsScraper
